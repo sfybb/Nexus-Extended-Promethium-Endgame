@@ -1,0 +1,37 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 06.06.2026
+  Code:
+    - Adds comments and introduces minor code cleanups (removes dead code and unnecessary logic)
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 06.06.2026
+  Changes:
+    - Modifies the function of the “Shield Stabilizer” module from “Nexus-Threat” so that it can now be toggled in stages
+      via the Nexus GUI (power consumption and production), removes the old signal control:::, and replaces it
+      with two completely new signals for instability and shield to be inserted into a Combinator.
+      !!!!!!!!!Breaking Change!!!!!!!!! You need to replace all the old shild stabilizers so that the new feature works.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 21.05.2026
+  Bugfixes:
+    - Fix a incorrect location of a Technology ( "Nexus Storm Forecast" now after "omega components" )
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 24.04.2026
+  Adding:
+    - Adds a new Tips and Tricks window. (Explanation of how to read the instability and shield values in a Combinator)
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 23.04.2026
+  Bugfixes:
+    - Fix a incompatibility with "Krastorio2-spaced-out" ( Typing error in Technology  ).
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 23.04.2026
+  Adding:
+    - Adds a new add-on!!!! new feature to the planet Nexus.
+      A lightning storm that can destroy your base if you don't protect it with an energy shield.
+      The storms grow stronger over time due to operations on Nexus.
+      ( Can be enabled or disabled in the settings. Default: On )
+      !!!!!!!!!!!!!I'd really appreciate some feedback on the balancing. I hope I got it right!!!!!!!!!!!!!!!!
